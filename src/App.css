@@ -1,0 +1,69 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: 0;
+  scroll-behavior:smooth;
+}
+
+/* login segment */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('image/view.jpg'); /* เปลี่ยนเป็น path ของภาพพื้นหลัง */
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(3px); เบลอภาพพื้นหลัง */
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.user-icon {
+  /* สไตล์สำหรับไอคอนผู้ใช้ */
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+
+.user-icon img {
+  width: 120%;
+  height: auto;
+  align-items: center;
+  margin-left: 6rem;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50; /* สีเขียว */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
